@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="12" fill="#0d0d0d"/>
+  <!-- Scissors -->
+  <g transform="translate(32,32)" stroke="#d4a843" stroke-width="2.2" fill="none" stroke-linecap="round">
+    <!-- Left blade -->
+    <ellipse cx="-8" cy="10" rx="5.5" ry="7" transform="rotate(-15,-8,10)"/>
+    <line x1="-5" y1="4" x2="6" y2="-14"/>
+    <!-- Right blade -->
+    <ellipse cx="8" cy="10" rx="5.5" ry="7" transform="rotate(15,8,10)"/>
+    <line x1="5" y1="4" x2="-6" y2="-14"/>
+  </g>
+  <!-- Curly swirl left -->
+  <path d="M10 14 Q6 10 10 7 Q15 4 13 9" stroke="#d4a843" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <!-- Curly swirl right -->
+  <path d="M54 14 Q58 10 54 7 Q49 4 51 9" stroke="#d4a843" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <!-- R letter -->
+  <text x="32" y="60" text-anchor="middle" font-family="Georgia,serif" font-size="9" font-weight="bold" fill="#d4a843">R</text>
+</svg>
